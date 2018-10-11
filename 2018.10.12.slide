@@ -5,19 +5,83 @@ Tags: epigenetics, genomics, evolution
 Jake VanCampen
 @jakevc
 
+
 * Findings
 
-- Breaks of Synteny (BOS) colocally with Topologically Associated Domain (TAD) boundaried
-- TADs unlikely broken by BOS
+: Presenter notes (This is some text I would like included in the presenter notes, it will be critical for understanding the rest of the talk )
 
-* Context
+- Breaks of Synteny (BOS) colocalize with Topologically Associated Domain (TAD) boundaries
+- Epigenetic marks support this colocalization
+- TADs infrequently broken by BOS
+- Chromatin interactions are preserved despite gibbon genome shuffling 
 
-- Gibbon genome was found to be reshuffled 
+* Contex
+
+Gibbon genome is hihgly rearranged
+
+.image assets/BOS.png
+
+Carbone et. al. 2014
 
 * What's a TAD boundary Look like? 
 
 .image assets/tad.png
 
-* Thanks! 
+* What's a Break of Synteny (BOS) look like? 
 
--DOne
+.image assets/BOS.png
+
+: Presenter notes (break of synteny: a locus of the gibbon genome whose 5' and 3' ends are homologous to different, non-syntenic segments of human genome. They found about 67 in gibbon (33 single bp res) )
+
+* Chromatin contacts are depleted across the break of Synteny
+
+.image assets/fig3.png
+
+: Average Hi-c Signal acrossw regions of all 33 identified BOS. Local Regression on 100kb windows +- 2.5Mb of BOS. Would like to see the enrichment vs. BOS plot for the first two figures as well. 
+
+* Though it's not obvious without averaging..
+
+.image assets/fig3a.png 
+
+* Conserved overlap of BOS and TADs (400-600kb)
+
+.image assets/fig4.png
+
+Found some consistent significance with permutation testing
+
+* TADs infrequently broken by BOS
+
+.image assets/fig5.png
+
+: Presenter notes ()
+
+* Chromatin interactions are preserved despite gibbon genome shuffling
+
+- Each side of the break of synteny has a distinct epigenetic landscape (H3K4me3, CpG density).
+
+.image assets/fig7a.png
+
+*  No relationship between age and residual methylation suggests epigenetic stability.
+ 
+.image assets/fig7b.png
+
+* Two Prevaling models
+
+- Fragile TAD Boundary
+
+- TAD boundary selection
+
+
+* Fragile TAD Boundary
+
+.image assets/fig8a.png
+
+* TAD boundary selection
+
+.image assets/fig8b.png
+
+* Implications
+
+- Functional genomic units remain intact despite genomic shuffling
+
+- "Ghost interactions" could be long distance DNA interactions that are a solution to maintaining important regulatory networks after genomic rearrangement. 
