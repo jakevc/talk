@@ -27,11 +27,13 @@ Carbone et. al. 2014
 
 .image assets/tad.png
 
+: Genes located in the same TAD are often coregulated, and have similar epigenetic marks
+
 * What's a Break of Synteny (BOS) look like? 
 
 .image assets/BOS.png
 
-: Presenter notes (break of synteny: a locus of the gibbon genome whose 5' and 3' ends are homologous to different, non-syntenic segments of human genome. They found about 67 in gibbon (33 single bp res) )
+: break of synteny: a locus of the gibbon genome whose 5' and 3' ends are homologous to different, non-syntenic segments of human genome. They found about 67 in gibbon (33 single bp res). 
 
 * Chromatin contacts are depleted across the break of Synteny
 
@@ -47,17 +49,19 @@ Carbone et. al. 2014
 
 .image assets/fig4.png
 
-Found some consistent significance with permutation testing
+: Averaged contact maps from other species at orthologous BOS sites. Permutation tested the overlap of BOS and TAD binned by size for each species. 
+
+Significant overlap between BOS and boundaries of TADs in the 400–600kb bin
 
 * TADs infrequently broken by BOS
 
 .image assets/fig5.png
 
-: Presenter notes ()
+: The majority of the Topologically associated domains were retained, rarely broken
 
 * Chromatin interactions are preserved despite gibbon genome shuffling
 
-- Each side of the break of synteny has a distinct epigenetic landscape (H3K4me3, CpG density).
+: Each side of the break of synteny has a distinct epigenetic landscape (H3K4me3, CpG density). They found significant enrichment of CpG and SINE elements surrounding the breaks of synteny which have been described as characteristics of TAD boundaries.
 
 .image assets/fig7a.png
 
@@ -74,9 +78,13 @@ Found some consistent significance with permutation testing
 
 * Fragile TAD Boundary
 
+: DSBs will therefore occur more frequentlyat TAD boundaries than at other genomic regions and have a higher chance to be repaired and evolutionarily fixed.
+
 .image assets/fig8a.png
 
 * TAD boundary selection
+
+: DSBs occur equally at TAD boundaries and within TADs. However, rearrangements altering TAD structure by misplacing or deleting TAD boundaries are lost through purifying selection, whereas those maintaining TADs intact are more likely to become evolutionarily fixed. In a small portion of the cases, new TAD boundaries might emerge (green diamond) and survive in the population.
 
 .image assets/fig8b.png
 
